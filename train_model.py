@@ -10,7 +10,9 @@ import os
 
 # our images are located in the dataset folder
 print("[INFO] start processing faces...")
-imagePaths = list(paths.list_images("dataset"))
+imagePaths = list(paths.list_images("dataset/kusi")) + list(paths.list_images("dataset/sebi"))
+
+print(imagePaths)
 
 # initialize the list of known encodings and known names
 knownEncodings = []
