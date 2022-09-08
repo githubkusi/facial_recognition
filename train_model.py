@@ -10,6 +10,8 @@ import os
 
 # our images are located in the dataset folder
 print("[INFO] start processing faces...")
+
+# data from 2021 is available here: https://drive.google.com/drive/folders/1ZzpuvQFz5a7-8WeM3ote7sOXrfPe3ZMK?usp=sharing
 imagePaths = list(paths.list_images("dataset/kusi")) + list(paths.list_images("dataset/sebi"))
 
 print(imagePaths)
